@@ -22,7 +22,9 @@ public class Note {
     private String title;
     @Lob
     private String content;
-
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "USER_ID")
+    private User user;
     @CreatedDate
     private LocalDateTime createdAt;
     @LastModifiedDate
