@@ -5,7 +5,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class NoteDto {
+public class NoteRequestDto {
     private String title;
     private String content;
 }
