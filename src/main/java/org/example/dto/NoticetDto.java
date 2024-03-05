@@ -1,11 +1,13 @@
 package org.example.dto;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class NoteRequestDto {
+public class NoticetDto {
     private String title;
     private String content;
 }
