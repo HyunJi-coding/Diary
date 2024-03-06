@@ -32,10 +32,12 @@ public class Note {
 
     public Note(
             String title,
-            String content
+            String content,
+            User user
     ) {
         this.title = title;
         this.content = content;
+        this.user = user;
     }
 
     public void updateContent(
